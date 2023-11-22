@@ -29,8 +29,8 @@
           <surface>
             <friction>
               <ode>
-                <mu>100</mu>
-                <mu2>50</mu2>
+                <mu>1</mu>
+                <mu2>1</mu2>
               </ode>
             </friction>
             <bounce/>
@@ -277,6 +277,7 @@
       </include>
     </model>
 
+<!--
     <model name='box_0'>
       <include>
         <uri> model://box</uri>
@@ -291,7 +292,7 @@
         <name> box_1 </name>
         <static>1</static>
       </include>
-    </model>
+    </model> -->
 
     <gui fullscreen='0'>
       <camera name='user_camera'>
@@ -582,7 +583,7 @@
         </link>
       </model>
 
-      <model name='box_0'>
+ <!--     <model name='box_0'>
         <pose frame=''>-0.80 -1.3 0 0 -0 1.5708</pose>
         <scale>1 1 1</scale>
         <link name='link'>
@@ -602,7 +603,7 @@
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
-      </model>
+      </model>-->
 
       <light name='sun'>
         <pose frame=''>0 0 10 0 -0 0</pose>
